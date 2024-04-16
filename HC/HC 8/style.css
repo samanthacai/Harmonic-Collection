@@ -1,0 +1,69 @@
+body {
+    margin-bottom: 100px;
+    font-family: "LoRes 9 Minus OT", Narrow-Regular;
+    font-size: 16pt;
+    color: #FFF3CA;
+ 
+}
+h1 {
+    font-family: PF Pixelscript;
+    text-align: center;
+    color: #45672B;
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+img {
+    width: 100%;
+    filter: blur(0.5px);
+}
+
+#image-container {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.viewfinder {
+    position: absolute;
+    width: 500px; /* Set the width of the circle */
+    height: 500px; /* Set the height of the circle */
+    background-color: #009688; /* Set the color of the circle viewfinder */
+    pointer-events: none;
+    mix-blend-mode: difference;
+    z-index: 9999;
+    border-radius: 50%; /* Use border-radius to create a circle */
+    transform: translate(-50%, -50%);
+    transition: all 0.1s ease-out;
+}
+
+
+.navbar {
+ 
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-btn {
+  color: #45672B;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+ 
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  filter: drop-shadow(0 0 0.75rem #ffffff);
+}
+
+.home-btn {
+  margin: 0;
+
