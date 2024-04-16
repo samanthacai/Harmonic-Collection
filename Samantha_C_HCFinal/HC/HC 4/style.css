@@ -1,0 +1,85 @@
+body {
+	background-color: #ED2F2F;
+	
+	margin-bottom: 100px;
+	font-family: "LoRes 9 Minus OT", Narrow-Regular;
+	font-size: 16pt;
+	color: #FFF3CA;
+	text-align: center;
+	
+}
+h1 {
+	font-family: PF Pixelscript;
+	text-align: center;
+	color: #FFF3CA;
+	font-size: 60px;
+	margin-top: 80px;
+}
+p {
+	text-align: center;
+}
+img {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+	width: 190px;
+	height: auto;
+	border: crimson double 5px;
+	background-color: #FFF3CA;
+	border-radius: 50%;
+	justify-content: center;
+	position: relative;
+}
+
+@media (max-width: 400px)
+{ div: first-child {
+	margin-left: 100px;
+	margin-right: 100px;
+} }
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+img:hover {
+  animation: bounce .5s
+}
+
+
+.navbar {
+ 
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-btn {
+  color: #FFF3CA;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+ 
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  filter: drop-shadow(0 0 0.75rem #ffffff);
+}
+
+.home-btn {
+  margin: 0;
+
+
+
+
+
+
+
+

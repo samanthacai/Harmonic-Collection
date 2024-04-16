@@ -1,0 +1,102 @@
+body {
+	background-color: #45672B;
+	margin-bottom: 100px;
+	font-family: "LoRes 9 Minus OT", Narrow-Regular;
+	font-size: 16pt;
+	color: #FFF3CA;
+
+}
+h1 {
+	font-family: PF Pixelscript;
+	text-align: center;
+	color: #FFF3CA;
+	font-size: 60px;
+	margin-top: 80px;
+}
+img {
+	max-width: 5%;
+	padding: 0px;
+	position: relative;
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+#cat {
+	width: 30px%;
+}
+
+div {
+	display:flex;
+	flex-wrap: wrap;
+	background-color: ;
+}
+
+img:hover {
+  transform: scale(3);
+}
+
+.navbar {
+ 
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-btn {
+  color: #FFF3CA;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+ 
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  filter: drop-shadow(0 0 0.75rem #ffffff);
+}
+
+.home-btn {
+  margin: 0;
+
+
+/*@keyframes samplechange{
+	0%{
+		opacity: 1;
+		transform: translateX(0vw);
+	}
+
+	33%{
+		opacity:1;
+		transform: translateX(33vw);
+	}
+
+	66%{
+		opacity: 1;
+		transform: translateX(88vw);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateX(0vw);
+	}
+	66%{
+		opacity: 1;
+		transform: translateX(88vw);
+	}
+
+}
+
+#animated{
+	width: 1000px;
+	height: 1000px;
+	animation: samplechange 8s infinite ease-in-out;
